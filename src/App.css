@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: black !important;
+}
+
+#netflix-logo {
+  height: 48px;
+  vertical-align: middle;
+}
+
+.dropdown-position {
+  position: absolute;
+  left: -90px;
+}
+
+.genre-details {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-group {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.buttons-from-presentation-content {
+  border-radius: 0 !important;
+}
+
+.movie-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.movie-cover {
+  width: 99%;
+  transition: 0.3s;
+  opacity: 0.7;
+  height: 135px;
+  object-fit: cover;
+}
+
+#avatar {
+  height: 36px;
+}
+
+#ccollasible-nav-dropdown {
+  position: absolute !important;
+  left: 0px !important;
+  background-color: black;
+  color: white;
+  z-index: 1;
+}
+
+#collasible-nav-dropdown {
+  background-color: black !important;
+}
+
+.darkBackground {
+  background-color: black !important;
+}
+
+.dropdown-menu {
+  margin-left: -130px !important;
+  background-color: black !important;
+}
