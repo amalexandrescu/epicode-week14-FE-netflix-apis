@@ -16,7 +16,7 @@ class SingleMovie extends Component {
           download
           href={`${process.env.REACT_APP_BE_URL}/medias/${this.props.currentMovieObj.imdbID}/pdf`}
         >
-          <Button className="">pdf</Button>
+          <Button>pdf</Button>
         </a>
       </div>
     );
