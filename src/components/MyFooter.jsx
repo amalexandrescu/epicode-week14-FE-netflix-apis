@@ -1,7 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import MyFooterColumn from "./MyFooterColumns";
 
-const MyFoter = () => {
+const MyFooter = () => {
   return (
     <Container className="mb-2">
       <footer>
@@ -13,4 +13,4 @@ const MyFoter = () => {
   );
 };
 
-export default MyFoter;
+export default MyFooter;
