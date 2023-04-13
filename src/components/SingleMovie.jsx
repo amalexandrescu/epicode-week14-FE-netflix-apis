@@ -12,12 +12,12 @@ class SingleMovie extends Component {
           src={this.props.currentMovieObj.poster}
           alt={this.props.currentMovieObj.title}
         />
-        <a
+        {/* <a
           download
           href={`${process.env.REACT_APP_BE_URL}/medias/${this.props.currentMovieObj.imdbID}/pdf`}
         >
           <Button>pdf</Button>
-        </a>
+        </a> */}
       </div>
     );
   }
